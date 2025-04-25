@@ -77,3 +77,9 @@ book add --name google --section general --url www.google.com # saves bookmark f
 ```
 node config.js
 ```
+
+##### convert chrome bookmark.html file to db.json
+
+```
+node import.js /path/to/bookmark.html ./db.json
+```
